@@ -1,0 +1,204 @@
+/* Folder Organizer TUI Styles */
+
+Screen {
+    background: $surface;
+}
+
+/* Home Screen */
+#home-container {
+    padding: 1 2;
+    height: 100%;
+}
+
+#folder-path {
+    padding: 1 0;
+    text-align: center;
+    background: $boost;
+    margin-bottom: 1;
+}
+
+#folder-hint {
+    text-align: center;
+    margin-bottom: 1;
+}
+
+.section-title {
+    margin-top: 1;
+    margin-bottom: 1;
+    text-style: bold;
+    color: $accent;
+}
+
+#stats-container {
+    padding: 1 2;
+    background: $panel;
+    border: solid $primary;
+    margin-bottom: 1;
+}
+
+#stats-content {
+    padding: 1;
+}
+
+#actions-container {
+    padding: 1;
+}
+
+#actions-container Button {
+    width: 100%;
+    margin-bottom: 1;
+}
+
+/* All Screens */
+.screen-title {
+    text-align: center;
+    text-style: bold;
+    padding: 1;
+    background: $boost;
+    margin-bottom: 1;
+}
+
+.description {
+    text-align: center;
+    padding: 0 2;
+    margin-bottom: 1;
+}
+
+.warning {
+    text-align: center;
+    padding: 1 2;
+    background: $error;
+    margin-bottom: 1;
+}
+
+.hint {
+    padding: 0 2;
+    margin-bottom: 1;
+}
+
+/* Organize Screen */
+#organize-container {
+    padding: 1 2;
+    height: 100%;
+}
+
+#preview-container {
+    border: solid $primary;
+    background: $panel;
+    height: 1fr;
+    margin: 1 0;
+}
+
+#preview-content {
+    padding: 1 2;
+}
+
+/* Search Screen */
+#search-container {
+    padding: 1 2;
+    height: 100%;
+}
+
+#search-input {
+    margin: 1 0 2 0;
+}
+
+#results-container {
+    border: solid $primary;
+    background: $panel;
+    height: 1fr;
+    margin-bottom: 1;
+}
+
+#results-content {
+    padding: 1 2;
+}
+
+/* Move Screen */
+#move-container {
+    padding: 1 2;
+    height: 100%;
+}
+
+#move-container Input {
+    margin-bottom: 2;
+}
+
+#move-container Label {
+    margin-top: 1;
+    text-style: bold;
+}
+
+#preview-text {
+    border: solid $primary;
+    background: $panel;
+    padding: 1 2;
+    min-height: 10;
+    margin: 1 0;
+}
+
+/* Delete Screen */
+#delete-container {
+    padding: 1 2;
+    height: 100%;
+}
+
+#delete-container Input {
+    margin-bottom: 2;
+}
+
+#delete-container Label {
+    margin-top: 1;
+    text-style: bold;
+}
+
+/* Button Row */
+#button-row {
+    height: auto;
+    align: center bottom;
+    padding: 1 0;
+}
+
+#button-row Button {
+    margin: 0 1;
+}
+
+/* General Button Styling */
+Button {
+    min-width: 20;
+}
+
+/* Folder Select Screen */
+#folder-select-container {
+    padding: 1 2;
+    height: 100%;
+}
+
+#path-input-container {
+    margin-bottom: 1;
+}
+
+#path-label {
+    margin-bottom: 1;
+    text-style: bold;
+}
+
+#path-input {
+    margin-bottom: 2;
+}
+
+#tree-container {
+    border: solid $primary;
+    background: $panel;
+    height: 1fr;
+    margin-bottom: 1;
+}
+
+#tree-label {
+    padding: 1;
+    text-style: bold;
+}
+
+#dir-tree {
+    height: 1fr;
+}

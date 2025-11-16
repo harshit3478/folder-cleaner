@@ -10,12 +10,10 @@
 	"PDFs" : [".pdf"],
 
 	"ARCHIVES" : [".iso", ".tar", ".gz",".7z", ".rar", ".zip"],
-	
-	"PYTHON" : [".py", ".pyw"],
-	"PROGRAMMING" : [".java", ".c", ".cpp", ".go", ".pl", ".rb", ".bat"],
+	"PROGRAMMING" : [".java", ".c", ".cpp", ".go", ".pl", ".rb", ".bat",".py", ".pyw"],
 	"WEB" : [".html", ".htm", ".xhtml", ".css", ".js", ".php", ".webp", ".js", ".jsx", ".tsx" , ".ts"],
 	"DATAFILES" : [".xml", ".json", ".csv", ".dat"], 
 
-	"EXE" : [".exe", ".deb"],
+	"EXE" : [".exe", ".deb", ".dmg", ".pkg", ".msi", ".apk"],
 	"SHELL" : [".sh"]
 }
